@@ -5,7 +5,7 @@ tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 model = GPT2LMHeadModel.from_pretrained("gpt2")
 
 # Encode input text and get model predictions
-input_text = "Once upon a time"
+input_text = "To be the best AI researcher"
 input_ids = tokenizer.encode(input_text, return_tensors='pt')
 
 # Generate continuation
